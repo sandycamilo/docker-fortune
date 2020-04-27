@@ -36,3 +36,24 @@ _Runs the `IMAGE_NAME` image. Deletes the container after executing the `CMD`_.
 ```bash
 $ docker run --rm --name CONTAINER_NAME IMAGE_NAME
 ```
+<br>
+
+## Options that change the way command-line versions of fortune behave:
+<br>
+
+**-a**  ```Chooses from all databases, regardless of whether they are "offensive" or not.```
+<br>
+**-e** ```	Makes the probability of choosing a fortune file equal to that of all files.```
+<br>
+**-f**	```Prints out a list of all fortune files, but does not print a fortune.```
+<br>
+**-i**	```When used with -m, makes regular expression searching case-insensitive.```
+<br>
+**-m** ```Prints all fortunes matching the regular expression specified in [pattern].```
+<br>
+**-n** ```Overrides the length used by -l and -s to determine "long" and "short" messages (160 characters).```
+<br>
+**-o**	```Chooses only from "offensive" databases.```
+
+
+
